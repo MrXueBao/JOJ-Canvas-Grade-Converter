@@ -1,0 +1,8 @@
+.vscode
+.DS_Store
+*.csv
+GradeConverter
+GradeConverter.cpp.bak
+!GradeConverter.csv
+*.o
+*.zip
