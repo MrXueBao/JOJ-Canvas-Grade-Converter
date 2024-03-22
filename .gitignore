@@ -3,6 +3,6 @@
 *.csv
 GradeConverter
 GradeConverter.cpp.bak
-!GradeConverter.csv
+# !BasicInformation.csv
 *.o
 *.zip
