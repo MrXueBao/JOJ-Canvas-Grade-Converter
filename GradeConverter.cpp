@@ -60,7 +60,7 @@ unordered_map<string, string> readExerciseScores(const string &filePath) {
 
 string processScore(const string &rawScore, int maxScore, double minimumPrecision, bool isExercise = true) {
   double score = stoi(rawScore);
-  int canvasMaxScore = isExercise ? 10 : 100;
+  int canvasMaxScore = isExercise ? 10 : 90;
   score = (score / maxScore) * canvasMaxScore;
   // Adjust the score according to the minimumPrecision
   score = round(score / minimumPrecision) * minimumPrecision;
